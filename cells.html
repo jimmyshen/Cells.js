@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>CELLS!</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+ 	<link rel="stylesheet" type="text/css" href="cells.css">
+	<script type="text/javascript" src="cells.js"></script>
+</head>
+<body onload="Cells.Init();">
+
+    <div class="logo"></div>
+
+    <div id="game-area"></div>
+
+    <div class="controls">
+        <div id="score" class="score">0</div>
+        <div id="preview" class="preview"></div>
+        <div>
+            <input type="checkbox" id="elimination-mode"> Elimination Mode
+        </div>
+        <div class="buttons">
+            <button id="play-game" onclick="Cells.TogglePlay()">play</button>
+            <button id="reset-game" onclick="Cells.ResetGame()">reset</button>
+        </div>
+        <div class="help">
+            <b>Controls</b><br>
+            <img src="up.gif" alt="UP"> Rotate piece<br>
+            <img src="left.gif" alt="LEFT"> Shift left<br>
+            <img src="right.gif" alt="RIGHT"> Shift right<br>
+            <img src="down.gif" alt="DOWN"> Shift down
+        </div>
+    </div>
+
+    <div class="info">
+        CELLS v<span id="version"></span> copyright &copy; 2008-2011 Chun Min Shen
+    </div>
+
+    <ul id="debug" class="debug">
+        <li>&nbsp;</li>
+    </ul>
+</body>
+</html>
