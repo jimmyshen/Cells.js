@@ -27,5 +27,5 @@ the best score before the play area fills up.
 Credits
 -------
 
-All graphics and programming by Chun Min Shen (kuato@erratical.com)
+All graphics and programming by Chun Min Shen
 
